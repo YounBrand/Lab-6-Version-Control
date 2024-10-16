@@ -1,4 +1,4 @@
-#  GitHub addition with git bash
+# GitHub addition with git bash
 
 
 def main():
