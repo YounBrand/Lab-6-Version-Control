@@ -11,15 +11,11 @@ def password_encoder(password): #Password encoder that takes in 8-digit string a
         encoded_password += str(element)
     return encoded_password
 
-#Function developed by Brandon Young
-def password_decoder(encoded_password): #Password decoder that takes in 8-digit string and returns with each value shifted down 3
-    decoded_password = ''
-    for element in str(encoded_password):
-        element = int(element) - 3
-        decoded_password += str(element)
-    return decoded_password
 
-#Function developed by Brandon Young
+def password_decoder(encoded_password): #Password decoder that takes in 8-digit string and returns with each value shifted down 3
+    pass
+
+
 def main():
     user_password = '00000000'
     encoded_password = '00000000'
